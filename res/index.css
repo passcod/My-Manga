@@ -30,6 +30,10 @@ section#shelves article {
   padding: 2em;
 }
 
+section#shelves a {
+  padding: auto;
+}
+
 section#shelves p {
   text-align: justify;
 }

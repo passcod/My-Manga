@@ -1,16 +1,21 @@
 ﻿        
-        <article>
-          <a href="<shelf-href />">
+        <article><div>
             <header>
               <hgroup>
-                <h1><shelf-title-caps /></h1>
-                <h2><shelf-author />
+                <a href="<shelf-href />"><h1><shelf-title-caps /></h1></a>
+                <a href="<shelf-href />"><h2><shelf-author /></h2></a>
+              </hgroup>
+              <a href="<shelf-href />">
                 <time datetime="<shelf-date />" pubdate><shelf-year /></time>
+              </a>
             </header>
             <p>
-              <shelf-description />
+              <a href="<shelf-href />">
+                <shelf-description />
+              </a>
             </p>
-            <img src="<shelf-cover-href />" alt="Cover" />
-          </a>
-        </article>
+            <a href="<shelf-href />">
+              <img src="<shelf-cover-href />" alt="Cover" />
+            </a>
+        </div></article>
         

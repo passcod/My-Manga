@@ -98,6 +98,8 @@ function getMangaList() {
 
   closedir($dir_handle);
   
+  usort($list, 'sortByDate');
+  
   return $list;
 }
 
@@ -125,7 +127,33 @@ function getChapterList($manga) {
 
   closedir($dir_handle);
   
+  usort($list, 'sortByDate');
+  
   return $list;
+}
+
+
+/****************/
+
+function sortByDate($a, $b) {
+  if ( empty($a['date']) ) {
+    $a['date'] = "00-00-0000";
+  }
+  
+  if ( empty($b['date']) ) {
+    $b['date'] = "00-00-0000";
+  }
+  
+  $ad = strtotime($a['date']);
+  $bd = strtotime($b['date']);
+  
+  if ( $ad == $bd ) {
+    return 0;
+  } elseif ( $ad > $bd ) {
+    return 1;
+  } else {
+    return -1;
+  }
 }
 
 ?>
