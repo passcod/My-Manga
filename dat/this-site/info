@@ -1,0 +1,11 @@
+{
+  "title": "My Manga",
+  "author": "Felix Saparelli",
+  "author-url": "http://passcod.net/",
+  "description": "A few more details about this website...",
+  "cover": "cover.png",
+  "date": "2011-03-12",
+  "year": 2011,
+  "license": "Creative Commons Attribution Non-Commercial Share-Alike 3.0",
+  "license-url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+}

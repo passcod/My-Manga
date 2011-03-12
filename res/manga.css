@@ -1,0 +1,80 @@
+﻿section#info {
+  border-bottom: 1em solid black;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+section#info a {
+  border-bottom: 0.2em solid #897668;
+}
+
+section#info a:hover {
+  border-bottom: 0;
+}
+
+section#info h1 {
+  font-size: 2.5em;
+}
+
+section#info img {
+  float: left;
+  width: 15em;
+  margin: 1em 2em;
+  border: 1em solid white;
+}
+
+section#info dt {
+  font-family: LeagueGothic, "Trebuchet MS", sans-serif;
+  font-size: 1.7em;
+}
+
+section#info dd {
+  margin: 1em 0;
+  text-indent: 1em;
+}
+
+section#info p {
+  margin: 3em 0;
+  text-align: justify;
+}
+
+section#chapters article {
+  margin: 0;
+  border-bottom: 1px solid black;
+  
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+section#chapters article:hover {
+  background-color: #CAAF9C;
+  
+  box-shadow: 0 0 1em 1em #CAAF9C;
+  -moz-box-shadow: 0 0 1em 1em #CAAF9C;
+  -webkit-box-shadow: 0 0 1em 1em #CAAF9C;
+  -o-box-shadow: 0 0 1em 1em #CAAF9C;
+}
+
+section#chapters a {
+  padding: 1em 0;
+  display: block;
+}
+
+section#chapters h1 {
+  margin-left: 2em;
+  display: inline-block;
+}
+
+section#chapters h2 {
+  display: inline-block;
+}
+
+section#chapters time {
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: -1em;
+}

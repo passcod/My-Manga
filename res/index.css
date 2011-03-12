@@ -1,0 +1,66 @@
+﻿section#about {
+  column-count: 3;
+  column-gap: 2em;
+  -moz-column-count: 3;
+  -moz-column-gap: 2em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 2em;
+  -o-column-count: 3;
+  -o-column-gap: 2em;
+  
+  text-align: justify;
+  text-indent: 2em;
+  font-size: 1.17em;
+  line-height: 1.3em;
+  
+  border-bottom: 1em solid black;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+}
+
+section#shelves {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+section#shelves article {
+  width: 15em;
+  display: inline-block;
+  vertical-align: top;
+  padding: 2em;
+}
+
+section#shelves p {
+  text-align: justify;
+}
+
+section#shelves img {
+  width: 12em;
+  margin: 1em auto;
+  border: 1em solid white;
+}
+
+section#shelves h1 {
+  font-size: 3em;
+}
+
+section#shelves h2 {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+section#shelves time {
+  font-size: 1.2em;
+  display: block;
+  text-align: right;
+}
+
+footer {
+  border-top: 1em solid black;
+  margin-top: 3em;
+  padding-top: 1em;
+}
+
+footer h1 {
+  font-size: 1.3em;
+}

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet"  href="/res/design.css" />
+    <link rel="stylesheet"  href="/res/chapter.css" />
+    <link rel="author"      href="<manga-author-url />" />
+    <link rel="license"     href="<manga-license-url />" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/chapter.js"></script>
+    <title>My manga: <manga-title /> (<chapter-no />)</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container">
+      <header id="title">
+        <a href="/">
+          <hgroup>
+            <h1>MY MANGA</h2>
+            <h2>BY ME FOR YOU</h2>
+          </hgroug>
+        </a>
+      </header>
+      <section>
+        <header>
+          <a href="<manga-href />">
+            <h1><manga-title-caps /></h1>
+          </a>
+          <a href="<chapter-href />">
+            <h2><chapter-no /> - <chapter-title-caps /></h2>
+          </a>
+        </header>
+        <img src="<chapter-first-page-href />" />
+      </section>
+      <footer>
+        You need Javascript to read the chapter.
+      </footer>
+    </div>
+  </body>
+</html>

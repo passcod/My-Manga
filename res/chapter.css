@@ -1,0 +1,20 @@
+﻿section {
+  text-align: center;
+  border-bottom: 1em solid black;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+}
+
+section img {
+  margin: 1em auto;
+  border: 1em solid white;
+}
+
+section h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+section h2 {
+  font-size: 2em;
+}

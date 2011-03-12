@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet"  href="/res/design.css" />
+    <link rel="stylesheet"  href="/res/manga.css" />
+    <link rel="author"      href="<manga-author-url />" />
+    <link rel="license"     href="<manga-license-url />" />
+    <title>My manga: <manga-title /></title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container">
+      <header id="title">
+        <a href="/">
+          <hgroup>
+            <h1>MY MANGA</h2>
+            <h2>BY ME FOR YOU</h2>
+          </hgroug>
+        </a>
+      </header>
+      <section id="info">
+        <header>
+          <h1><manga-title-caps /></h1>
+        </header>
+        <img src="<manga-cover-href />" />
+        <dl>
+          <dt>Author</dt>
+          <dd><a href="<manga-author-url />"><manga-author /></a></dd>
+          
+          <dt>Year</dt>
+          <dd><time datetime="<manga-date />"><manga-year /></time></dd>
+          
+          <dt>License</dt>
+          <dd><a href="<manga-license-url />"><manga-license /></a></dd>
+        </dl>
+        <p><manga-description /></p>
+        <div style="clear:both">&nbsp;</div>
+      </section>
+      <section id="chapters">
+        <chapters />
+      </section>
+    </div>
+  </body>
+</html>
